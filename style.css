@@ -76,3 +76,56 @@ button:active {
     padding-right: 20px;
     
 }
+@media (max-width: 600px) {
+    .contenedor{
+        height: 87vh;
+        width: 85vw;
+        top: 3rem;
+    position: absolute;
+    }
+    button{
+        height: 53px;
+        width: 53px;
+        margin: 7px;
+        font-size: 18px;
+    }
+    #n0{
+        height: 53px;
+        width: 126px;
+        
+    }
+    .calculator{
+        grid-template-columns: repeat(4,70px);
+    }
+    #resultado{
+        height: 20vh;
+        width: 65vw;
+    }
+}
+@media (max-width: 400px) {
+    #resultado{
+        height: 17vh;
+        top: 3rem;
+    }
+    .calculator{
+        top: 12rem;
+    }
+}
+@media (max-width: 350px) {
+    .calculator{
+        top: 11.3rem;
+    }
+    button{
+        height: 43px;
+        width: 43px;
+        margin: 6px;
+        font-size: 18px;
+    }
+    #n0{
+        height: 43px;
+        width: 106px; 
+    }
+    .calculator{
+        grid-template-columns: repeat(4,60px);
+    }
+}
